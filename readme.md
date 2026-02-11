@@ -1,4 +1,5 @@
 # Exploratory Data Analysis of Diabetes Progression
+##### Author: [Lisa Monozlai](https://www.linkedin.com/in/lisamonozlai/)
 
 This project uses Python to examine how common clinical measures (such as BMI, blood pressure, and cholesterol) relate to diabetes progression. The focus is on producing clear insights accessible to a broad audience. The project can be viewed either as a [PDF](https://github.com/lisamonozlai/exploratory-data-analysis-of-diabetes-progression/blob/main/reports/eda_diabetes_progression.pdf) or in a [Jupyter Notebook](https://github.com/lisamonozlai/exploratory-data-analysis-of-diabetes-progression/blob/main/notebooks/eda_diabetes_progression.ipynb).
 
@@ -53,10 +54,6 @@ This project is intended as:
 - A portfolio example demonstrating clear exploratory analysis
 - A learning resource for those practicing data analysis and visualization
 - A reference for communicating data insights to non-technical audiences
-
-## Author
-
-[Lisa Monozlai](https://www.linkedin.com/in/lisamonozlai/)
 
 ## License
 
