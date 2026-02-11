@@ -1,60 +1,39 @@
-# Exploratory Data Analysis of Diabetes Progression
+# Using Python to Support Policy Decision‑Making
 ##### Author: [Lisa Monozlai](https://www.linkedin.com/in/lisamonozlai/)
 
-This project uses Python to examine how common clinical measures (such as BMI, blood pressure, and cholesterol) relate to diabetes progression. The focus is on producing clear insights accessible to a broad audience. The project can be viewed either as a [PDF](https://github.com/lisamonozlai/exploratory-data-analysis-of-diabetes-progression/blob/main/reports/eda_diabetes_progression.pdf) or in a [Jupyter Notebook](https://github.com/lisamonozlai/exploratory-data-analysis-of-diabetes-progression/blob/main/notebooks/eda_diabetes_progression.ipynb).
+This project demonstrates how Python can support policy and program decision‑making by turning raw data into clear, interpretable insights. The analysis is available in three formats, each tailored to different audiences (technical, working‑level, and executive):
+
+- [Jupyter Notebook](https://github.com/lisamonozlai/exploratory-data-analysis-of-diabetes-progression/blob/main/notebooks/eda_diabetes_progression.ipynb)  
+- [PDF Report](https://github.com/lisamonozlai/exploratory-data-analysis-of-diabetes-progression/blob/main/reports/eda_diabetes_progression.pdf)  
+- [One‑Page Brief](https://github.com/lisamonozlai/public-health-data-analysis/blob/main/summary/eda_diabetes_progression_summary.pdf)
 
 ## Dataset
-This analysis uses a well-known 2004 diabetes dataset (`diabetes.csv`) from the [University of Copenhagen](https://www4.stat.ncsu.edu/%7Eboos/var.select/diabetes.html), commonly used in data science education.
-The data includes clinical and demographic information for 442 individuals, with all values standardized for privacy and consistency.
+To demonstrate a data‑to‑decision workflow, I use a 2004 diabetes dataset (`diabetes.csv`) from the [University of Copenhagen](https://www4.stat.ncsu.edu/%7Eboos/var.select/diabetes.html). It includes standardized clinical and demographic information for 442 individuals.
 
-## Why This Project
-
-Understanding which health factors are most closely associated with diabetes progression helps guide further analysis and decision-making.
-
-This project demonstrates how exploratory data analysis can:
-
-- Reveal meaningful patterns in real-world data
-- Communicate insights clearly using visualizations
-- Support informed next steps without complex models
+## Goals
+The analysis aims to identify which factors most influence diabetes progression so public health teams can focus their programs and interventions where they will have the greatest impact.
 
 ## What I Did
+- Checked data quality and distributions  
+- Compared progression across age and sex groups  
+- Visualized relationships between health indicators and progression  
+- Used simple trend lines to compare the strength of relationships  
 
-- Checked data quality and distributions
-- Compared progression across age and sex groups
-- Visualized relationships between health indicators and progression
-- Used simple trend lines to compare the strength of relationships
+## What I Found
+- **Strongest influence:** body mass index (BMI) and triglycerides  
+- **Protective effect:** HDL (“good”) cholesterol  
+- **Moderate influence:** blood pressure and blood glucose  
+- **Limited influence:** age and sex  
 
-## Key Findings
+These results align with medical expectations and highlight which factors may matter most.
 
-- **Stronger associations**: body mass index (BMI) and triglycerides
-- **Protective relationship**: HDL (“good”) cholesterol
-- **Moderate associations**: blood pressure and blood glucose
-- **Smaller effects**: age and sex
+## Other Research
+These findings are consistent with broader evidence:  
+- Studies show that people with increasing BMI are more likely to develop diabetes ([Nature, 2024](https://www.nature.com/articles/s41598-024-75179-6)).  
+- Elevated triglycerides are linked to insulin resistance, which contributes to faster progression ([BMC Public Health, 2025](https://pubmed.ncbi.nlm.nih.gov/40165126/); [IJMS, 2025](https://www.mdpi.com/1422-0067/26/20/9910)).
 
-These results align with medical expectations and help highlight which factors may matter most.
-
-## Limitations & Next Steps
-
-Limitations of Analysis
-
-- Examines one factor at a time
-- Uses a relatively small dataset
-- Does not make predictions
-
-Next Steps
-
-- Combine multiple factors in a single model
-- Evaluate predictive performance
-- Quantify uncertainty around results
-
-## Audience
-
-This project is intended as:
-
-- A portfolio example demonstrating clear exploratory analysis
-- A learning resource for those practicing data analysis and visualization
-- A reference for communicating data insights to non-technical audiences
+## Policy Conclusions
+If designing a program to reduce diabetes progression, it may be most effective to prioritize interventions targeting BMI and triglycerides, as these factors show the strongest influence in both the analysis and the broader research literature.
 
 ## License
-
 MIT
