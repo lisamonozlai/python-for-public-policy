@@ -3,9 +3,9 @@
 
 This project demonstrates how Python can support policy and program decision‑making by turning raw data into clear, interpretable insights. The analysis is available in three formats, each tailored to different audiences (technical, working‑level, and executive):
 
-- [Jupyter Notebook](https://github.com/lisamonozlai/exploratory-data-analysis-of-diabetes-progression/blob/main/notebooks/eda_diabetes_progression.ipynb)  
-- [PDF Report](https://github.com/lisamonozlai/exploratory-data-analysis-of-diabetes-progression/blob/main/reports/eda_diabetes_progression.pdf)  
-- [One‑Page Brief](https://github.com/lisamonozlai/public-health-data-analysis/blob/main/summary/eda_diabetes_progression_summary.pdf)
+- [Jupyter Notebook](https://github.com/lisamonozlai/python-for-public-policy/blob/main/notebook/eda_diabetes_progression.ipynb)  
+- [PDF Report](https://github.com/lisamonozlai/python-for-public-policy/blob/main/report/eda_diabetes_progression.pdf)  
+- [One‑Page Brief](https://github.com/lisamonozlai/python-for-public-policy/blob/main/summary/eda_diabetes_progression_summary.pdf)
 
 ## Dataset
 To demonstrate a data‑to‑decision workflow, I use a 2004 diabetes dataset (`diabetes.csv`) from the [University of Copenhagen](https://www4.stat.ncsu.edu/%7Eboos/var.select/diabetes.html). It includes standardized clinical and demographic information for 442 individuals.
